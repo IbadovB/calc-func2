@@ -1,0 +1,12 @@
+.operations {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;  
+    padding: 10px;
+}
+
+#operators,
+button
+ {
+    padding: 20px;
+}
