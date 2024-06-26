@@ -9,20 +9,23 @@
 </head>
 
 <body>
-   <div class="operations"> 
-    <input type="text" id="numb1" placeholder="enter number"  onkeyup="numberonly(this)">
-        <select id="operators">            
-                <option value="+">+</option>
-                <option value="-">-</option>
-                <option value="X">X</option>
-                <option value="/">/</option>        
-    </select>
-    <input type="text" id="numb2" placeholder="enter number"  onkeyup="numberonly(this)">
-    <button onclick="calc();">=</button>
-    <input type="text" id="result" onkeyup="numberonly(this)">
-</div>
+    <div button="wrong" onkeyup="check"></div>
+    <div class="operations">
+        <input type="text" id="numb1" placeholder="enter number" onkeyup="numberOnly(this)">
+        <select id="operators">
+            <option>choose</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="X">X</option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" id="numb2" placeholder="enter number" onkeyup="numberOnly(this)">
+        <button onclick="calc();">=</button>
+        <input type="text" id="result" onkeyup="numberOnly(this)">
+    </div>
 
-    <script src="main.js"></script>
+
+    <script src="/main.js"></script>
 </body>
 
 </html>

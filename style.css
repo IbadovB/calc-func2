@@ -6,7 +6,11 @@
 }
 
 #operators,
-button
- {
+button {
     padding: 20px;
+}
+
+.wrong{
+    font-size: 30px;
+    color: red;
 }
